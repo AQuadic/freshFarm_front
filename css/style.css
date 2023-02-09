@@ -431,6 +431,7 @@ position: relative;
     top: 50%;
     transform: translateY(-50%);
     right: -120px;
+    max-width: 100%;
     z-index: -1;
     animation: 3s linear 1s infinite alternate slidein;
 }
