@@ -2,21 +2,25 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:  DIN;
 }
 
 @font-face {
-    font-family: TS Safaa;
-    src: url(/webfonts/TSSafaa-Regular.otf);
+    font-family: DINb;
+    src: url('../fonts/DIN-Next-LT-Arabic-Bold.ttf');
 }
 
 @font-face {
-    font-family: TS Safaa2;
-    src: url(/webfonts/TSSafaa-Light.otf);
+  font-family: DIN;
+    src: url('../fonts/DINNextLTArabic-Medium-2.ttf');
 }
 
 @font-face {
-    font-family: TS Safaa3;
-    src: url(/webfonts/TSSafaa-Medium.otf);
+  font-family: DINr;
+  src: url('../fonts/DINNextLTArabic-Regular-2.ttf');
+}
+h1 ,h2,h3{
+  font-family: DINb;
 }
 
 body {
@@ -25,8 +29,8 @@ body {
     overflow-x: clip;
 }
 
-html[dir="rtl"] p {
-    font-family: Ts Safaa2;
+ p {
+    font-family: DINr ;
 }
 
 html::-webkit-scrollbar {
@@ -164,7 +168,7 @@ i#nav_bar {
   line-height: 21px;
   /* identical to box height */
   
-  font-family: 'DM Sans2';
+  font-family: DIN;
   color: white;
   }
   .btn_nav {
@@ -316,6 +320,7 @@ margin-bottom: 170px;
 line-height: 120%;
 margin-bottom: 0;
 color: #FE9E45;
+font-family: DIN;
   } 
   .about  h3{
     font-size: 50px;
@@ -359,12 +364,13 @@ padding: 0px 16px;
     justify-content: center;
     color: white;
     font-size: 24px;
+    font-family: 'DINb';
 }
   .about  .steps a h5{
     font-size: 24px;
     line-height: 120%;
     color: #FE9E45;
-    
+    font-family: 'DINb';
   }
   .about img{
     
@@ -454,6 +460,7 @@ margin-bottom: 64px;
 line-height: 120%;
 color: #7D7D7D;
 margin-bottom: 32px;
+font-family: 'DIN';
 }
 .contact .content form  , .modal  .content form{
     gap: 16px;
@@ -521,6 +528,7 @@ border: none;
     font-size: 18px;
     line-height: 22px;
     color: #8B8B8B;
+    font-family: 'DIN';
 }
 .help .input_help{
     background: #FFFFFF;
@@ -541,11 +549,13 @@ border: none;
     flex-grow: 1;
     border: none;
     outline: none;
+    font-family: 'DINr';
+
 }
 
 .help .input_help button{
     min-Width:108px;
-
+    font-family: 'DINr';
 Height:56px;
 display: flex;
     align-items: center;
@@ -592,6 +602,7 @@ footer .container .part1 img{
 
 }
 footer .container .part1 p{
+  font-family: 'DIN';
     font-size: 16px;
     line-height: 29px;
     color: #FFFFFF;
@@ -611,6 +622,7 @@ line-height: 21px;
 color: #FFFFFF;
 text-align: center;
 margin: 0;
+font-family: 'DINr';
 }
 @media (max-width: 768px){
     footer .container .part2 img{
@@ -749,6 +761,7 @@ color: #1B1B4E;
   font-size: 19px;
 line-height: 149%;
 color: #FE9E45;
+font-family: DINb;
 }
 .view .part:hover{
   outline: 3px solid #FE9E45;
