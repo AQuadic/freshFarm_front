@@ -589,7 +589,7 @@ footer {
 }
 footer .container{
     display: flex;
-    align-items: flex-start;
+    align-items:center;
     justify-content: space-between;
     gap: 30px;
     flex-wrap: wrap;
@@ -611,10 +611,39 @@ footer .container .part1 p{
 }
 footer .container .part2 {
     display: flex;
-    gap: 22px;
+    gap: 20px;
+    flex-direction: column;
+    color: #FFFFFF;
+
+}
+footer .container .part2 h2,footer .container .part2 h3{
+  font-size: 18px;
+line-height: 120%;
+
+font-family: DINr;
 }
 footer .container .part2 img{
     max-width: 100%;
+}
+footer .container .part2 .links{
+display: flex;
+align-items: center;
+gap: 40px;
+flex-wrap: wrap;
+}
+footer .container .part2 .links a{
+  background: #D9D9D9;
+border: 1px solid #101010;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+footer .container .part2 .links a img{
+  
 }
  .copy h3{
     font-size: 14px;
